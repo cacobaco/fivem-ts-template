@@ -1,0 +1,19 @@
+{
+    "name": "cc_vcontrols",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "author": "cacobaco",
+    "license": "MIT",
+    "scripts": {
+        "build": "node build.js --mode=production",
+        "watch": "node build.js"
+    },
+    "devDependencies": {
+        "@citizenfx/client": "latest",
+        "@citizenfx/server": "latest",
+        "@types/node": "^20.5.8",
+        "esbuild": "^0.19.2",
+        "typescript": "^5.2.2"
+    }
+}
